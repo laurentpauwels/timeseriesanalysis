@@ -1,7 +1,7 @@
 # Time-Series Analysis
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/laurentpauwels/timeseriesanalysis.git/HEAD)
 
-Repository for Jupyter Notebook teaching materials. Click the `lauch binder` button above to start `binder`, the interactive computational environments for this GitHub repository. The materials are programmed with the statistical computing language `R`.
+Repository for Jupyter Notebook teaching materials. Click the `launch binder` button above to start `binder`, the interactive computational environments for this GitHub repository. The materials are programmed with the statistical computing language `R`.
 
 ## Content
 
@@ -17,10 +17,12 @@ Repository for Jupyter Notebook teaching materials. Click the `lauch binder` but
 9. `structuralBreaks.ipynb`: CUSUM, MOSUM, Chow Test, known/unknown break points, multiple break points, and Andrews and Zivot tests.
 
 
-- `intro2R.ipynb` is a basic introduction to R with some time-series data as well as basics of programming in R such as creating variables, basic operations, matrix algebra, functions, and loops. It uses the `./data/tut1.csv` dataset.
-- `data` folder contains the relevant data.
+- `intro2R.ipynb`: is a basic introduction to R with some time-series data as well as basics of programming in R such as creating variables, basic operations, matrix algebra, functions, and loops. It uses the `./data/tut1.csv` dataset.
+- `./data`: folder that contains the relevant data.
+- `install.R`: contains all the required R packages that need to be installed. This installed when opening a `binder` interactive environment. It can be used to install all the required packages locally.
+- `runtime.txt`: r-4.1-2022-01-10, the version of R `binder` installs. 
 
-## Reference
+## References
 
 Robert H. Shumway and David S. Stoffer. _Time Series Analysis and Its Applications: With R Examples_. Springer Texts in Statistics. Springer Cham, 4th Edition, 2017
 
